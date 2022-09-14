@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "<b>PHP exercise 1</br></br></b>";
+echo "Twinkle, Twinkle little star. </br>";
+
+$twinkle = "Twinkle";
+$star = "star";
+
+echo "$twinkle, $twinkle little $star.</br></br>";
+
+?>
+
+<?php
+echo "<b>PHP exercise 2</br></br></b>";
+$x = 10;
+$y = 7;
+
+$result = $x + $y;
+echo "$x + $y = $result <br/>";
+
+$result = $x - $y;
+echo "$x - $y = $result <br/>";
+
+$result = $x * $y;
+echo "$x - $y = $result <br/>";
+
+$result = $x / $y;
+echo "$x / $y = $result <br/>";
+
+$result = $x % $y;
+echo "$x % $y = $result <br/></br>";
+
+?>
+
+<?php
+echo "<b>PHP exercise 3<br/></br></b>";
+$num = 8; 
+echo "Value is now $num.</br>";
+
+$num += 2;
+echo "Add 2. Value is now $num.</br>";
+
+$num -= 4;
+echo "Subtract 4. Value is now $num.</br>";
+
+$num *= 5;
+echo "Multiply by 5. Value is now $num.</br>";
+
+$num /= 3;
+echo "Divide by 3. Value is now $num.</br>";
+
+$num++;
+echo "Increment value by one. Value is now $num.</br>";
+
+$num--;
+echo "Decrement value by one. Value is now $num.</br></br>";
+?>
+
+<?php
+echo "<b>PHP exercise 4 <br/></br></b>";
+$name = 'Harry';
+$age = 28;
+
+var_dump($name);
+echo "</br>";
+
+print_r($name);
+echo "</br>";
+
+var_dump($age);
+echo "</br>";
+
+$name = null;
+
+var_dump($name);
+?>
+
+</body>
+</html>
