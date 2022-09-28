@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 
 <?php
 echo "<b>PHP exercise 5</br></br></b>";
@@ -39,6 +36,3 @@ for ($row=1; $row<=7; $row++){
 }
 echo "</table>";
 ?>
-
-</body>
-</html>

@@ -1,0 +1,18 @@
+<?php
+
+echo '<b>Array Exercise 1</b></br></br>';
+
+$input= array(5);
+$input= array(1);
+$input= array(1);
+
+$count_values = array();
+foreach ($input as $a) {
+
+     @$array_count_values[$a]++;
+     
+}
+echo 'Total number of duplicate elements found in the array is: '.count($array_count_values);
+
+echo '</br></br>';
+?>
