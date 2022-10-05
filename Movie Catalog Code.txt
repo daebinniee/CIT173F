@@ -35,7 +35,7 @@ echo "<table id= 'movies' cellpadding = 50>";
 echo "<tr class = 'odd'>";
 
 foreach ($movies as $movie_name => $info){
-	$co ntent = "<td><span class = 'name'>$movie_name</span><br />"
+	$content = "<td><span class = 'name'>$movie_name</span><br />"
 	        . "<img src = 'movies/$info[image]'><br />"
 	        . "<span class = 'year'>($info[year] )</span></td>";
 	echo $content;     
